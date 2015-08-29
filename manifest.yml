@@ -1,6 +1,8 @@
 applications:
 - name: MyApp
-  memory: 256M
+  memory: 512M
   instances: 5
-  host: MyApp
+  no-hostname: true
+  random-route: true
   stack: windows2012
+  buildpack: clr_buildpack
