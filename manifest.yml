@@ -1,7 +1,6 @@
 applications:
   .:
     name: MyApp
-    url: ${name}.${target-base}
     framework:
       name: dotNet
       info:
