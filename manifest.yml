@@ -1,4 +1,6 @@
 applications:
 - name: MyApp
   memory: 256M
-  instances: 1
+  instances: 5
+  host: MyApp
+  stack: windows2012
