@@ -1,7 +1,7 @@
 applications:
 - name: MyApp
-  memory: 1024M
-  instances: 5
+  memory: 512M
+  instances: 2
   no-hostname: true
   random-route: true
   stack: windows2012
