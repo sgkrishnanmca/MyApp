@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ShopEasy
+namespace MyApp
 {
-    public partial class index : System.Web.UI.Page
+    public partial class Default : System.Web.UI.Page
     {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
