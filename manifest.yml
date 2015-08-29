@@ -1,0 +1,12 @@
+applications:
+  .:
+    name: MyApp
+    url: ${name}.${target-base}
+    framework:
+      name: dotNet
+      info:
+        mem: 128M
+        description: .Net Hello World Web Application
+        exec: 
+    mem: 128M
+    instances: 4
