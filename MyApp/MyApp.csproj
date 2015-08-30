@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ShopEasy</RootNamespace>
-    <AssemblyName>ShopEasy</AssemblyName>
+    <RootNamespace>MyApp</RootNamespace>
+    <AssemblyName>MyApp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -30,7 +30,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
-    <CodeAnalysisRuleSet>ShopEasy.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -39,7 +38,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>ShopEasy.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,55 +47,15 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTMLs\Double.html" />
-    <Content Include="HTMLs\standalone.html" />
-    <Content Include="HTMLs\Triple.html" />
-    <Content Include="Images\BtnOrderNow.png" />
-    <Content Include="Images\DoubleBanner.png" />
-    <Content Include="Images\fdv_png.png" />
-    <Content Include="Images\fiostinternet_png.png" />
-    <Content Include="Images\fiostv_png.png" />
-    <Content Include="Images\LearnHeader.png" />
-    <Content Include="Images\PhoenixHeader.png" />
-    <Content Include="Images\StandAloneBanner.png" />
-    <Content Include="Images\TripleBanner.png" />
-    <Content Include="index.aspx" />
-    <Content Include="ReviewOrder.aspx" />
-    <Content Include="Scripts\bootstrap.min.css" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\CartJSON.js" />
-    <Content Include="Scripts\Customize.js" />
-    <Content Include="Scripts\generic.css" />
-    <Content Include="Scripts\main.css" />
-    <Content Include="Shop.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReviewOrder.aspx.cs">
-      <DependentUpon>ReviewOrder.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ReviewOrder.aspx.designer.cs">
-      <DependentUpon>ReviewOrder.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Shop.aspx.cs">
-      <DependentUpon>Shop.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ShopEasy.ruleset" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
