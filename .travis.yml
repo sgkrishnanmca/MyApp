@@ -7,7 +7,7 @@ deploy:
    edge: true
    provider: cloudfoundry
    username: sgkrishnanmca@yahoo.com
-   password: %fD8VU$H0Wqi
+   password: Welcome123
    api: api.beta.ironfoundry.me
    organization: SgkTestApp
    space: development
